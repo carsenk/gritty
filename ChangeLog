@@ -1,3 +1,33 @@
+2020.09.11, v5.0.0
+
+feature:
+- (gritty) drop support of node < 12
+- (package) yargs-parser v20.0.0
+
+
+2020.09.09, v4.8.16
+
+feature:
+- (package) xterm-addon-webgl v0.9.0
+- (package) xterm v4.9.0
+
+
+2020.08.13, v4.8.15
+
+feature:
+- (package) css-loader v4.2.1
+- (package) yargs-parser v19.0.1
+
+
+2020.07.23, v4.8.14
+
+feature:
+- (package) xterm v4.8.1
+- (package) putout v9.0.0
+- (package) madrun v7.0.0
+- (package) eslint-plugin-putout v5.0.0
+
+
 2020.06.20, v4.8.13
 
 feature:
