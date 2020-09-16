@@ -152,7 +152,7 @@ test('gritty: server: terminal: parse args', async (t) => {
     const {port, done} = await connect();
     const socket = io(`http://localhost:${port}/gritty`);
     
-    mockRequire('node-pty', {
+    mockRequire('node-pty-prebuilt-multiarch', {
         spawn: stub(),
     });
     
