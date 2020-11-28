@@ -8,7 +8,7 @@ const log = require('debug')('gritty');
 const Router = require('router');
 const currify = require('currify');
 const wraptile = require('wraptile');
-const pty = require('node-pty-prebuilt-multiarch');
+const pty = require('node-pty');
 const stringArgv = require('string-to-argv');
 
 const terminalFn = currify(_terminalFn);
